@@ -20,16 +20,10 @@ El equipo de Sales y RevOps necesita más claridad para responder preguntas como
 
 ## Objetivo del reto
 
-Queremos evaluar cómo estructuras un problema ambiguo, cómo priorizas, cómo usas IA en tu trabajo analítico y qué tan bien conviertes datos en una herramienta útil para tomar decisiones.
+Queremos evaluar cómo estructuras un problema ambiguo, cómo priorizas y qué tan bien conviertes datos en una herramienta útil para tomar decisiones.
 
-**No buscamos perfección ni exhaustividad.**
-Queremos ver:
-
-- ✅ Criterio analítico
-- ✅ Entendimiento de negocio
-- ✅ Claridad para comunicar
-- ✅ Buen uso de IA
-- ✅ Capacidad de construir algo útil, no solo "bonito"
+**No buscamos perfección ni exhaustividad.**  
+Nos interesa ver cómo piensas y cómo comunicas.
 
 ---
 
@@ -39,7 +33,20 @@ Queremos ver:
 
 La intención no es que construyas una solución perfecta ni *production-ready*, sino una versión clara, bien pensada y enfocada en lo más importante.
 
-Dado que hoy existen herramientas de IA que aceleran mucho la construcción de dashboards, interfaces y documentación, esperamos que las aproveches para concentrarte más en el **criterio** y menos en el trabajo manual.
+---
+
+## Cómo esperamos que trabajes
+
+Esperamos que abordes este reto con un enfoque **AI-first**.
+
+Hoy existen herramientas que permiten construir dashboards, analizar datos y documentar mucho más rápido. Queremos ver que las utilizas para enfocarte en lo realmente importante:
+
+- Pensar el problema correctamente  
+- Priorizar lo que genera impacto  
+- Encontrar insights relevantes  
+- Comunicar con claridad  
+
+> No evaluamos qué herramienta usas, sino **cómo piensas trabajando con IA**.
 
 ---
 
@@ -49,13 +56,11 @@ A partir del dataset entregado, construye una propuesta analítica que permita e
 
 Te recomendamos enfocar tu análisis en **tres temas principales**:
 
-1. **Funnel comercial:** principales cuellos de botella, conversiones y diferencias relevantes entre segmentos o motions.
-2. **Contactabilidad:** qué tan bien se está gestionando el contacto a leads y dónde hay posibles fugas o ineficiencias.
-3. **Performance comercial:** señales relevantes sobre reps, descuentos, bots o iniciativas que estén afectando el desempeño del funnel.
+1. **Funnel comercial:** cuellos de botella, conversiones y diferencias relevantes  
+2. **Contactabilidad:** qué tan bien se está gestionando el contacto a leads  
+3. **Performance comercial:** señales sobre reps, descuentos, bots o segmentos  
 
-> [!NOTE]
-> No es necesario cubrir todo el dataset ni responder todas las preguntas posibles.
-> Preferimos **profundidad, criterio y foco**.
+> No es necesario cubrir todo. Preferimos **foco, criterio y profundidad**.
 
 ---
 
@@ -63,10 +68,11 @@ Te recomendamos enfocar tu análisis en **tres temas principales**:
 
 Tu solución debería ayudarnos a entender, como mínimo:
 
-- Cuáles son los principales **cuellos de botella** del funnel
-- Qué hallazgos importantes aparecen al analizar la **contactabilidad**
-- Qué señales relevantes ves sobre **descuentos, bots, reps o segmentos**
-- Qué **decisiones priorizarías** en los próximos 30 a 60 días
+- Cuáles son los principales **cuellos de botella** del funnel  
+- Qué hallazgos importantes aparecen en **contactabilidad**  
+- Qué señales relevantes ves sobre **descuentos, bots, reps o segmentos**  
+- Qué **decisiones priorizarías** en los próximos 30–60 días  
+- **Cómo le sirve este análisis/tablero al negocio** (impacto claro)
 
 ---
 
@@ -76,88 +82,70 @@ Tu solución debería ayudarnos a entender, como mínimo:
 
 Puede ser una de estas opciones:
 
-- Una mini app o dashboard en HTML / React / similar
-- Un notebook bien presentado
-- Una combinación simple entre análisis + visualización
+- Mini app o dashboard (HTML, React o similar)  
+- Notebook bien presentado  
+- Análisis + visualización simple  
 
-> [!IMPORTANT]
-> Lo importante no es la complejidad técnica del front, sino que el resultado sea **claro, útil y fácil de entender**.
-
----
-
-### 2. Repositorio o carpeta ordenada
-
-Idealmente, comparte tu entrega en un **repositorio de GitHub**. Esto nos ayuda a entender mejor cómo estructuras tu trabajo, documentas decisiones y dejas una solución reproducible.
-
-Tu entrega debería incluir al menos:
-
-| Elemento | Descripción |
-|---|---|
-| `README.md` | Instrucciones para correr la solución |
-| Enfoque | Breve explicación de tu enfoque |
-| Supuestos | Supuestos clave |
-| Decisiones | Principales decisiones de modelado o interpretación |
-
-Si prefieres, también puedes compartir tu solución como archivo `.zip` o carpeta compartida, siempre que esté bien organizada y sea fácil de revisar.
+> Lo importante es que sea **claro, útil y accionable**.
 
 ---
 
-### 3. Uso de IA
+### 2. Video explicativo (corto)
 
-Queremos ver una forma de trabajo **AI-first**. No necesitas montar una arquitectura compleja, pero sí mostrar que sabes usar IA con criterio.
+Graba un video breve (3–5 min) donde:
 
-Puedes incluir, por ejemplo:
+- Expliques tu solución como si se la presentaras a negocio  
+- Cuentes los principales insights  
+- Muestres cómo se usaría el tablero  
+- Demuestres tu claridad al comunicar  
 
-- Prompts o notas de trabajo
-- Un archivo de contexto del proyecto
-- Reglas o definiciones que ayuden a estructurar mejor la solución
-- Breve explicación de qué automatizaste con IA y qué validaste manualmente
+---
+
+### 3. Repositorio o carpeta (opcional)
+
+Puedes compartir tu entrega en:
+
+- Un repositorio de GitHub (**opcional**)  
+- Un `.zip` o carpeta organizada  
+
+Incluye, idealmente:
+
+- `README.md` con instrucciones  
+- Enfoque general  
+- Supuestos clave  
+- Principales decisiones  
 
 ---
 
 ## Qué NO esperamos
 
-- ❌ Una solución *production-ready*
-- ❌ Una app sofisticada o demasiado pulida
-- ❌ Cubrir absolutamente todo el dataset
-- ❌ Limpieza perfecta de todos los datos
-- ❌ Una presentación de consultoría inflada
+- ❌ Solución *production-ready*  
+- ❌ Front sofisticado  
+- ❌ Cubrir todo el dataset  
+- ❌ Limpieza perfecta  
+- ❌ Presentación inflada  
 
-> Esperamos una entrega **bien priorizada, clara y útil para negocio**.
-
----
-
-## Criterios de evaluación
-
-Evaluaremos principalmente:
-
-| Criterio | Descripción |
-|---|---|
-| **Estructuración del problema** | Qué tan bien ordenas la ambigüedad |
-| **Criterio analítico** | Qué tan sólidas son tus métricas, hallazgos e interpretaciones |
-| **Priorización** | Qué eliges mostrar y qué dejas por fuera |
-| **Claridad de comunicación** | Qué tan fácil es entender tus insights y recomendaciones |
-| **Uso de IA** | Qué tan bien aprovechas IA para trabajar mejor, no solo más rápido |
-| **Calidad general del entregable** | Orden, lógica, claridad y utilidad |
+> Buscamos **claridad, criterio y utilidad real para negocio**.
 
 ---
 
 ## Recomendaciones
 
-- 🎯 **Prioriza.** No intentes resolver todo.
-- 🧠 **Piensa como alguien de Sales, RevOps o liderazgo.**
-- 📊 **Diferencia entre señal real y ruido.**
-- 🤖 **Usa IA** para acelerar construcción y documentación, pero valida lo importante.
-- 💡 **Busca que el resultado ayude a tomar decisiones**, no solo a mostrar gráficos.
+- 🎯 Prioriza lo importante  
+- 🧠 Piensa como negocio (Sales / RevOps / liderazgo)  
+- 📊 Diferencia señal vs ruido  
+- 🤖 Usa IA para trabajar mejor, no solo más rápido  
+- 💡 Enfócate en decisiones, no solo en gráficos  
 
 ---
 
 ## Entrega
 
-Comparte tu solución en el formato que prefieras, junto con las instrucciones necesarias para revisarla.
+Comparte tu solución en el formato que prefieras, junto con instrucciones para revisarla.
 
 ---
 
 ## Nota final
 
-> Este reto está diseñado para simular una situación real de trabajo: información imperfecta, múltiples señales y necesidad de tomar decisiones con poco tiempo. **Nos interesa mucho más tu criterio que el volumen de cosas que logres producir.**
+> Este reto simula una situación real: información imperfecta y necesidad de decidir rápido.  
+> **Nos interesa mucho más tu criterio que la cantidad de cosas que construyas.**
